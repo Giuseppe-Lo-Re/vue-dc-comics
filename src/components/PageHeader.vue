@@ -99,7 +99,7 @@ header {
             padding-right: 50px;
 
             li {
-                padding: 0 20px;
+                margin: 0 15px;
                 line-height: 94px;
                 text-decoration: none;
                 color: $brand_main_color;

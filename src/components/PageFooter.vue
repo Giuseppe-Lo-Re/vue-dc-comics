@@ -197,57 +197,59 @@
         <!-- Footer Bottom -->
             <div class="footer-bottom">
 
-                <!-- Button CTA -->
-                <a href="#" class="btn">
-                    SIGN-UP NOW!
-                </a>
-                
-                <!-- Socials -->
-                <div class="social">
+                <div class="container">
+                    <!-- Button CTA -->
+                    <a href="#" class="btn">
+                        SIGN-UP NOW!
+                    </a>
+                    
+                    <!-- Socials -->
+                    <div class="social">
 
-                    <!-- Follow us -->
-                    <div class="follow-us">
-                        FOLLOW US
-                    </div>
+                        <!-- Follow us -->
+                        <div class="follow-us">
+                            FOLLOW US
+                        </div>
 
-                    <!-- Social Icons -->
-                    <div class="icons">
-                        <ul>
-                            <li>
-                                <!-- Facebook -->
-                                <a href="#">
-                                    <img src="../assets/img/footer-facebook.png" alt="Facebook">
-                                </a>
-                            </li>
+                        <!-- Social Icons -->
+                        <div class="icons">
+                            <ul>
+                                <li>
+                                    <!-- Facebook -->
+                                    <a href="#">
+                                        <img src="../assets/img/footer-facebook.png" alt="Facebook">
+                                    </a>
+                                </li>
 
-                            <li>
-                                <!-- Twitter -->
-                                <a href="#">
-                                    <img src="../assets/img/footer-twitter.png" alt="Twitter">
-                                </a>
-                            </li>
+                                <li>
+                                    <!-- Twitter -->
+                                    <a href="#">
+                                        <img src="../assets/img/footer-twitter.png" alt="Twitter">
+                                    </a>
+                                </li>
 
-                            <li>
-                                <!-- Youtube -->
-                                <a href="#">
-                                    <img src="../assets/img/footer-youtube.png" alt="Youtube">
-                                </a>
-                            </li>
+                                <li>
+                                    <!-- Youtube -->
+                                    <a href="#">
+                                        <img src="../assets/img/footer-youtube.png" alt="Youtube">
+                                    </a>
+                                </li>
 
-                            <li>
-                                <!-- Pinterest -->
-                                <a href="#">
-                                    <img src="../assets/img/footer-pinterest.png" alt="Pinterest">
-                                </a>
-                            </li>
+                                <li>
+                                    <!-- Pinterest -->
+                                    <a href="#">
+                                        <img src="../assets/img/footer-pinterest.png" alt="Pinterest">
+                                    </a>
+                                </li>
 
-                            <li>
-                                <!-- Periscope -->
-                                <a href="#">
-                                    <img src="../assets/img/footer-periscope.png" alt="Periscope">
-                                </a>
-                            </li>
-                        </ul>
+                                <li>
+                                    <!-- Periscope -->
+                                    <a href="#">
+                                        <img src="../assets/img/footer-periscope.png" alt="Periscope">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -267,6 +269,7 @@ export default {
 
 footer {
     background-image: url(../assets/img/footer-bg.jpg);
+     background-size: cover;
     .footer-top {
         display: flex;
         padding: 40px 0;
@@ -300,10 +303,14 @@ footer {
     }
     .footer-bottom {
         background-color: #303030;
-        height: 80px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        // height: 80px;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 20px;
+        }
 
         .btn {
             border: 2px solid $brand_secondary_color;
@@ -329,11 +336,7 @@ footer {
                 li {
                     margin: 0 10px;
                 }
-
-
-
             }
-            
         }
     }
 }
