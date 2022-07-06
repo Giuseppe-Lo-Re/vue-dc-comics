@@ -63,17 +63,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// @import './style/variables';
+@import './style/variables';
 header {
     .header-wrapper {
        display: flex;
        justify-content: space-between;
-       // background-color:;
+       background-color: $brand_quaternary_color;
    
-       ul {
+       
+    }
+
+    ul {
            display: flex;
        }
-    }
     .logo {
        width: 80px;
     }
