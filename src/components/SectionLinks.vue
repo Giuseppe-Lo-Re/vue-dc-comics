@@ -1,23 +1,24 @@
 <template>
     <section>
-        
-        <ul>
-            <li 
-                v-for="(link, index) in menuLinks" 
-                :key="index"
-            >
-                <a :href="link.url">
+        <div class="container">
+            <ul>
+                <li 
+                    v-for="(link, index) in menuLinks" 
+                    :key="index"
+                >
+                    <a :href="link.url">
 
-                    <!-- link Image -->
-                    <img :src="link.image" :alt="link.text">
-                    
-                    <!-- link Info -->
-                    <div class="text">
-                        {{ link.text }}
-                    </div>    
-                </a>
-            </li>
-        </ul>
+                        <!-- link Image -->
+                        <img :src="link.image" :alt="link.text">
+                        
+                        <!-- link Info -->
+                        <div class="text">
+                            {{ link.text }}
+                        </div>    
+                    </a>
+                </li>
+            </ul>
+        </div>
     </section>
 </template>
 
@@ -76,7 +77,7 @@ section {
     }
 
     li {
-        padding: 50px 20px ;
+        padding: 50px 30px ;
         
     a {
         display: flex;
