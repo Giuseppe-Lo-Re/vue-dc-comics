@@ -1,13 +1,13 @@
 <template>
-    <div>
-        footer top
-    </div>
+    <footer>
+        footer
+    </footer>
 </template>
 
 <script>
 
 export default {
-    name: "FooterTop",
+    name: "PageFooter",
 }
 </script>v
 

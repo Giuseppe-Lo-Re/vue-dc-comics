@@ -10,10 +10,8 @@
       <SectionLinks />
     </main>
 
-    <footer>
-      <FooterTop />
-      <FooterBottom />
-    </footer>
+    <!-- Footer -->
+    <PageFooter />
     
 
   </div>
@@ -24,8 +22,7 @@
 import PageHeader from "./components/PageHeader.vue";
 import SectionContents from "./components/SectionContents.vue";
 import SectionLinks from "./components/SectionLinks.vue";
-import FooterTop from "./components/FooterTop.vue";
-import FooterBottom from "./components/FooterBottom.vue";
+import PageFooter from "./components/PageFooter.vue";
 
 export default {
   name: "App",
@@ -33,8 +30,7 @@ export default {
     PageHeader,
     SectionContents,
     SectionLinks,
-    FooterTop,
-    FooterBottom
+    PageFooter
   }
 }
 </script>
