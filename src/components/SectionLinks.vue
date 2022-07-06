@@ -68,11 +68,13 @@ section {
     background-color: $brand_secondary_color;
 
     img {
-        width: 50px;
+        width: 55px;
+        height: 63px;
     
     }
     ul {
         display: flex;
+        justify-content: center;
         align-items: center;
     }
 
@@ -87,6 +89,7 @@ section {
 
         .text {
             padding-left: 10px;
+            font-size: 14px;
         }
     }
     }

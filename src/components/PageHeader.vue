@@ -17,11 +17,7 @@
                         :key="index" 
                         :class="{ 'current' : link.current}"
                     >
-
-                        <a :href="link.url">
                         {{ link.text }}
-                        </a>
-
                     </li>
                 </ul>
             </div>
@@ -40,53 +36,43 @@ export default {
             menuLinks: [
                {
                     text: 'CHARACTERS',
-                    url: '#',
                     current: false
                 },
                 {
                     text: 'COMICS',
-                    url: '#',
                     current: true
                 },  
                 {
                     text: 'MOVIES',
-                    url: '#',
                     current: false
                 },
                 {
                     text: 'TV',
-                    url: '#',
                     current: false
                 },
                 {
                     text: 'GAMES',
-                    url: '#',
                     current: false
                 },
                 {
                     text: 'COLLECTIBLES',
-                    url: '#',
                     current: false
                 },
                 {
                     text: 'VIDEOS',
-                    url: '#',
                     current: false
                 },
                 {
                     text: 'FANS',
-                    url: '#',
                     current: false
                     
                 },
                 {
                     text: 'NEWS',
-                    url: '#',
                     current: false
                 },
                 {
                     text: 'SHOP',
-                    url: '#',
                     current: false
                 },
             ]
@@ -110,17 +96,16 @@ header {
     
         ul {
             display: flex;
+            padding-right: 50px;
 
             li {
                 padding: 0 20px;
                 line-height: 94px;
-
-                a {
-                    text-decoration: none;
-                    color: $brand_main_color;
-                    font-size: 12px;
-                    font-weight: bold;
-                }
+                text-decoration: none;
+                color: $brand_main_color;
+                font-size: 13px;
+                font-weight: bold;
+                cursor: pointer;
 
                 &.current {
                 color: $brand_secondary_color;          
