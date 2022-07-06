@@ -1,0 +1,17 @@
+<template>
+
+<header>
+    header
+</header>
+</template>
+
+<script>
+
+export default {
+    name: "PageHeader",
+}
+</script>
+
+<style lang="scss" scoped>
+
+</style>
