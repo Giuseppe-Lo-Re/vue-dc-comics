@@ -103,7 +103,6 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 0;
 
         .logo {
            width: 80px;
@@ -114,6 +113,7 @@ header {
 
             li {
                 padding: 0 20px;
+                line-height: 94px;
 
                 a {
                     text-decoration: none;
@@ -121,11 +121,15 @@ header {
                     font-size: 12px;
                     font-weight: bold;
                 }
+
+                &.current {
+                color: $brand_secondary_color;          
+                border-bottom: 1px solid $brand_secondary_color;
+                border-bottom-width: 5px;
             }
         }
     }       
 }
-.current {
-        color: $brand_secondary_color; 
-    }
+
+}
 </style>
