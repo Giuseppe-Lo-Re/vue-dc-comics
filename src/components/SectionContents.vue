@@ -20,5 +20,4 @@ section {
     font-size: 30px;
     color: white;
 }
-
 </style>

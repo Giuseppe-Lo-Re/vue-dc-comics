@@ -1,6 +1,7 @@
 <template>
     <footer>
         <div class="container">
+
             <!-- Footer Top -->
             <div class="footer-top">
 
@@ -196,8 +197,8 @@
 
         <!-- Footer Bottom -->
             <div class="footer-bottom">
-
                 <div class="container">
+
                     <!-- Button CTA -->
                     <a href="#" class="btn">
                         SIGN-UP NOW!
@@ -253,23 +254,22 @@
                     </div>
                 </div>
             </div>
-
     </footer>
 </template>
 
 <script>
-
 export default {
     name: "PageFooter",
 }
-</script>v
+</script>
 
 <style lang="scss" scoped>
 @import '../style/variables';
 
 footer {
     background-image: url(../assets/img/footer-bg.jpg);
-     background-size: cover;
+    background-size: cover;
+
     .footer-top {
         display: flex;
         padding: 40px 0;
@@ -279,18 +279,22 @@ footer {
         .list {
             padding: 0 20px;
         }
+
         li {
+
             a {
                 text-decoration: none;
                 color: $brand_tertiary_color;
                 font-size: 12px;
             }
         }
+
         .title-list {
             font-weight: bold;
             color: white;
             padding: 20px 0;
         }
+
         .img-container {
             position: absolute;
             top:-100px;
@@ -301,9 +305,9 @@ footer {
             }
         }
     }
+
     .footer-bottom {
         background-color: #303030;
-        // height: 80px;
 
         .container {
             display: flex;

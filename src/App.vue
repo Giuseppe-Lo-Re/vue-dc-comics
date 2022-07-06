@@ -4,7 +4,7 @@
     <!-- Header -->
     <PageHeader />
 
-
+    <!-- Main -->
     <main>
       <SectionContents />
       <SectionLinks />
@@ -12,10 +12,8 @@
 
     <!-- Footer -->
     <PageFooter />
-
   </div>
 </template>
-
 
 <script>
 import PageHeader from "./components/PageHeader.vue";
@@ -34,8 +32,6 @@ export default {
 }
 </script>
 
-
 <style lang="scss">
 @import "./style/common";
-
 </style>

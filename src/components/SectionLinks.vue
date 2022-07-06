@@ -2,6 +2,8 @@
     <section>
         <div class="container">
             <ul>
+
+                <!-- Links -->
                 <li 
                     v-for="(link, index) in menuLinks" 
                     :key="index"
@@ -72,6 +74,7 @@ section {
         height: 63px;
     
     }
+
     ul {
         display: flex;
         justify-content: center;
@@ -81,18 +84,17 @@ section {
     li {
         padding: 50px 30px ;
         
-    a {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: white;
+        a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
 
-        .text {
-            padding-left: 10px;
-            font-size: 14px;
+            .text {
+                padding-left: 10px;
+                font-size: 14px;
+            }
         }
     }
-    }
 }
-
 </style>

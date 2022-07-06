@@ -11,7 +11,6 @@
             <!-- Menu -->
             <div class="menu">
                 <ul>
-
                     <li 
                         v-for="(link, index) in menuLinks" 
                         :key="index" 
@@ -28,7 +27,6 @@
 </template>
 
 <script>
-
 export default {
     name: "PageHeader",
     data() {
@@ -65,7 +63,6 @@ export default {
                 {
                     text: 'FANS',
                     current: false
-                    
                 },
                 {
                     text: 'NEWS',
@@ -83,8 +80,10 @@ export default {
 
 <style lang="scss" scoped>
 @import '../style/variables';
+
 header {
     background-color: white;
+    
     .header-wrapper {
         display: flex;
         justify-content: space-between;
