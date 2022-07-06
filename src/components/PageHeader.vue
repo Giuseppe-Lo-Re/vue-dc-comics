@@ -126,10 +126,9 @@ header {
                 color: $brand_secondary_color;          
                 border-bottom: 1px solid $brand_secondary_color;
                 border-bottom-width: 5px;
+                }
             }
-        }
-    }       
-}
-
+        }       
+    }
 }
 </style>
