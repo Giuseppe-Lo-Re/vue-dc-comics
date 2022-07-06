@@ -16,8 +16,7 @@
                         v-for="(link, index) in menuLinks" 
                         :key="index" 
                         :class="{ 'current' : link.current}"
-                        class="current"
-                        >
+                    >
 
                         <a :href="link.url">
                         {{ link.text }}
