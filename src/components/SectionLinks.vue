@@ -12,7 +12,7 @@
                     <img :src="link.image" :alt="link.text">
                     
                     <!-- link Info -->
-                    <div>
+                    <div class="text">
                         {{ link.text }}
                     </div>    
                 </a>
@@ -29,27 +29,27 @@ export default {
             menuLinks: [
                 {
                     text: 'DIGITAL COMICS',
-                    image: '../assets/img/buy-comics-digital-comics.png',
+                    image: require('../assets/img/buy-comics-digital-comics.png'),
                     url: '#',
                 },
                 {
                     text: 'DC MERCHANDISE',
-                    image: '../assets/img/buy-comics-merchandise.png',
+                    image: require('../assets/img/buy-comics-merchandise.png'),
                     url: '#',
                 },
                 {
                     text: 'SUBSCRIPTION',
-                    image: '../assets/img/buy-comics-subscription.png',
+                    image: require('../assets/img/buy-comics-subscriptions.png'),
                     url: '#',
                 },
                 {
                     text: 'COMIC SHOP LOCATOR',
-                    image: '../assets/img/buy-comics-shop-locator.png',
+                    image: require('../assets/img/buy-comics-shop-locator.png'),
                     url: '#',
                 },
                 {
                     text: 'DC POWER VISA',
-                    image: '../assets/img/buy-dc-power-visa.png',
+                    image: require('../assets/img/buy-dc-power-visa.svg'),
                     url: '#',
                 },
             ]
@@ -62,11 +62,33 @@ export default {
 @import '../style/variables';
 
 section {
+    display: flex;
+    justify-content: center;
     background-color: $brand_secondary_color;
 
     img {
         width: 50px;
     
+    }
+    ul {
+        display: flex;
+        align-items: center;
+    }
+
+    li {
+        padding: 50px 20px ;
+        
+    a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+
+        .text {
+            padding-left: 10px;
+        }
+    }
+    }
 }
-}
+
 </style>
