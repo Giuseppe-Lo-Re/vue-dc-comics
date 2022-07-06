@@ -99,6 +99,7 @@ export default {
 <style lang="scss" scoped>
 @import '../style/variables';
 header {
+    background-color: white;
     .header-wrapper {
         display: flex;
         justify-content: space-between;

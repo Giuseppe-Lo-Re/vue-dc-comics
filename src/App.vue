@@ -12,7 +12,6 @@
 
     <!-- Footer -->
     <PageFooter />
-    
 
   </div>
 </template>
@@ -37,5 +36,6 @@ export default {
 
 
 <style lang="scss">
-@import "./style/common"
+@import "./style/common";
+
 </style>
