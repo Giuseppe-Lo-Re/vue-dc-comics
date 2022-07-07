@@ -58,6 +58,7 @@ section {
 
     .jumbotron {
         background-image: url(../assets/img/jumbotron.jpg);
+        background-position: top;
         height: 400px;
         position: relative;
     }
