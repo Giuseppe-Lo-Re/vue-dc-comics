@@ -14,7 +14,11 @@
 
             <!-- Products List -->
             <div class="products-list">
-                <ProductCard v-for="(product,index) in products" :key="index" :productDetails="product" />
+                <ProductCard 
+                    v-for="(product,index) in products" 
+                    :key="index" 
+                    :productDetails="product" 
+                />
             </div>
 
             <!-- Load More -->
@@ -70,7 +74,7 @@ section {
         &.position {
             position: absolute;
             bottom: 242px;
-            left: 104px;
+            left: 60px;
         }
 
         &.padding {

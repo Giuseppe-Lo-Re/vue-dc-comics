@@ -12,7 +12,6 @@
                 {{ productDetails.series }}
             </div>
         </div>
-
     </div>
 </template>
 
@@ -53,5 +52,4 @@ export default {
         }
     }
 }
-
 </style>

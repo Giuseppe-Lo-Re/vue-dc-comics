@@ -290,6 +290,7 @@ footer {
         }
 
         .title-list {
+            font-size: 18px;
             font-weight: bold;
             color: white;
             padding: 20px 0;
@@ -298,7 +299,7 @@ footer {
         .img-container {
             position: absolute;
             top:-100px;
-            right:100px;
+            right:50px;
 
             img {
                 width: 550px;

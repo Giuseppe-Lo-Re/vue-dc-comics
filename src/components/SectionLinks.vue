@@ -70,9 +70,8 @@ section {
     background-color: $brand_secondary_color;
 
     img {
-        width: 55px;
-        height: 63px;
-    
+        width: 60px;
+        height: 65px;
     }
 
     ul {
@@ -82,7 +81,7 @@ section {
     }
 
     li {
-        padding: 50px 30px ;
+        padding: 50px 30px;
         
         a {
             display: flex;
