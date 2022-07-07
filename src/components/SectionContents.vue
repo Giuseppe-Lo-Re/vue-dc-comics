@@ -9,7 +9,7 @@
 
             <!-- Title -->
             <div class="title position">
-                CURRENT SERIES
+                current series
             </div>
 
             <!-- Products List -->
@@ -24,7 +24,7 @@
             <!-- Load More -->
             <div class="wrapper">
                 <div class="title padding-cursor">
-                    LOAD MORE
+                    load more
                 </div>
             </div>
         </div>
@@ -64,6 +64,7 @@ section {
     }
 
     .title {
+        text-transform: uppercase;
         color: white;
         background-color: $brand_secondary_color;
         border: 1px solid $brand_secondary_color;

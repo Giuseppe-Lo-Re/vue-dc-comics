@@ -13,7 +13,7 @@
 
                         <!-- Title -->
                         <h3>
-                            DC COMICS
+                            dc comics
                         </h3>
 
                         <!-- List -->
@@ -34,7 +34,7 @@
 
                         <!-- Title -->
                         <h3>
-                            SHOP
+                            shop
                         </h3>
 
                         <!-- List -->
@@ -59,7 +59,7 @@
 
                         <!-- Title -->
                         <h3>
-                            DC
+                            dc
                         </h3>
 
                         <!-- List -->
@@ -84,7 +84,7 @@
 
                         <!-- Title -->
                         <h3>
-                            SITES
+                            sites
                         </h3>
 
                         <!-- List -->
@@ -114,7 +114,7 @@
 
                     <!-- Button CTA -->
                     <a href="#" class="btn">
-                        SIGN-UP NOW!
+                        sign-up now!
                     </a>
                     
                     <!-- Socials -->
@@ -122,7 +122,7 @@
 
                         <!-- Follow us -->
                         <div class="follow-us">
-                            FOLLOW US
+                            follow us
                         </div>
 
                         <!-- Social Icons -->
@@ -302,6 +302,7 @@ footer {
         overflow: hidden;
 
         h3 {
+            text-transform: uppercase;
             color: white;
             padding-block: 20px;
         }
@@ -341,6 +342,7 @@ footer {
         }
 
         .btn {
+            text-transform: uppercase;
             border: 2px solid $brand_secondary_color;
             text-decoration: none;
             color: white;
@@ -352,6 +354,7 @@ footer {
             align-items: center;
 
             .follow-us {
+                text-transform: uppercase;
                 color: $brand_secondary_color;
                 font-size: 18px;
                 font-weight: bold;

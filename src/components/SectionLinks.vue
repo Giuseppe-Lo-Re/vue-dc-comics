@@ -31,27 +31,27 @@ export default {
         return {
             menuLinks: [
                 {
-                    text: 'DIGITAL COMICS',
+                    text: 'digital comics',
                     image: require('../assets/img/buy-comics-digital-comics.png'),
                     url: '#',
                 },
                 {
-                    text: 'DC MERCHANDISE',
+                    text: 'dc merchandise',
                     image: require('../assets/img/buy-comics-merchandise.png'),
                     url: '#',
                 },
                 {
-                    text: 'SUBSCRIPTION',
+                    text: 'subscription',
                     image: require('../assets/img/buy-comics-subscriptions.png'),
                     url: '#',
                 },
                 {
-                    text: 'COMIC SHOP LOCATOR',
+                    text: 'comic shop locator',
                     image: require('../assets/img/buy-comics-shop-locator.png'),
                     url: '#',
                 },
                 {
-                    text: 'DC POWER VISA',
+                    text: 'dc power visa',
                     image: require('../assets/img/buy-dc-power-visa.svg'),
                     url: '#',
                 },
@@ -90,6 +90,7 @@ section {
             color: white;
 
             .text {
+                text-transform: uppercase;
                 padding-left: 10px;
                 font-size: 14px;
             }
