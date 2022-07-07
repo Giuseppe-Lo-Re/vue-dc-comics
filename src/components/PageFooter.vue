@@ -5,187 +5,101 @@
             <!-- Footer Top -->
             <div class="footer-top">
 
-                <!-- List -->
-                <div class="list">
-                    <ul>
-                        <li class="title-list">
+                <!-- Nav Left -->
+                <div class="nav-left">
+
+                    <!-- DC COMICS -->
+                    <div class="dc-comics-nav">
+
+                        <!-- Title -->
+                        <h3>
                             DC COMICS
-                        </li>
+                        </h3>
 
-                        <li>
-                            <a href="#">
-                                Characters
-                            </a>
-                        </li>
+                        <!-- List -->
+                        <ul>
+                            <li 
+                                v-for="(link, index) in LinksDcComics"
+                                :key="index"
+                            >
+                                <a :href="link.url">
+                                    {{ link.text }}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
 
-                        <li>
-                            <a href="#">
-                                Comics
-                            </a>
-                        </li>
+                    <!-- SHOP -->
+                    <div class="shop-nav">
 
-                        <li>
-                            <a href="#">
-                                Movies
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                TV
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Games
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Videos
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                News
-                            </a>
-                        </li>
-
-                        <li class="title-list">
+                        <!-- Title -->
+                        <h3>
                             SHOP
-                        </li>
+                        </h3>
 
-                        <li>
-                            <a href="#">
-                                Shop DC
-                            </a>
-                        </li>
+                        <!-- List -->
+                        <ul>
+                            <li 
+                                v-for="(link, index) in LinksShop"
+                                :key="index"
+                            >
+                                <a :href="link.url">
+                                    {{ link.text }}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
 
-                        <li>
-                            <a href="#">
-                                Shop DC Collectibles
-                            </a>
-                        </li>
-
-                    </ul>
                 </div>
 
-                <!-- List -->
-                <div class="list">
-                    <ul>
-                        <li class="title-list">
+                <!-- Nav Center -->
+                <div class="nav-center">
+
+                    <!-- DC -->
+                    <div class="dc-nav">
+
+                        <!-- Title -->
+                        <h3>
                             DC
-                        </li>
+                        </h3>
 
-                        <li>
-                            <a href="#">
-                                Terms Of Use
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Privacy policy(New)
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Ad Choices
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Advertising
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Jobs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Subscriptions
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Talent Workshops
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                CPSC Certificates
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Ratings
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Shop help
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Contact Us
-                            </a>
-                        </li>
-
-                    </ul>
+                        <!-- List -->
+                        <ul>
+                            <li 
+                                v-for="(link, index) in LinksDc"
+                                :key="index"
+                            >
+                                <a :href="link.url">
+                                    {{ link.text }}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
-                <!-- List -->
-                <div class="list">
-                    <ul>
-                        <li class="title-list">
+                <!-- Nav Right -->
+                <div class="nav-rigth">
+
+                    <!-- SITES -->
+                    <div class="sites-nav">
+
+                        <!-- Title -->
+                        <h3>
                             SITES
-                        </li>
+                        </h3>
 
-                        <li>
-                            <a href="#">
-                                DC
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                MAD magazine
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                DC Kids
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                DC Universe
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                DC Power Visa
-                            </a>
-                        </li>
-                    </ul>
+                        <!-- List -->
+                        <ul>
+                            <li 
+                                v-for="(link, index) in LinksSites"
+                                :key="index"
+                            >
+                                <a :href="link.url">
+                                    {{ link.text }}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
                 <!-- Image -->
@@ -260,6 +174,118 @@
 <script>
 export default {
     name: "PageFooter",
+    data() {
+        return {
+            LinksDcComics: [
+               {
+                    text: 'Characters',
+                    url: '#'
+                },
+                {
+                    text: 'Comics',
+                    url: '#'
+                },  
+                {
+                    text: 'Movies',
+                    url: '#'
+                },
+                {
+                    text: 'TV',
+                    url: '#'
+                },
+                {
+                    text: 'Games',
+                    url: '#'
+                },
+                {
+                    text: 'Videos',
+                    url: '#'
+                },
+                {
+                    text: 'News',
+                    url: '#'
+                },
+            ],
+            LinksShop: [
+                {
+                    text: 'Shop DC',
+                    url: '#'
+                },
+                {
+                    text: 'Shop DC Collectibles',
+                    url: '#'
+                },  
+            ],
+            LinksDc: [
+                {
+                    text: 'Terms Of Use',
+                    url: '#'
+                },
+                {
+                    text: 'Privacy policy(New)',
+                    url: '#'
+                },    
+                {
+                    text: 'Ad Choices',
+                    url: '#'
+                },
+                {
+                    text: 'Advertising',
+                    url: '#'
+                },
+                {
+                    text: 'Jobs',
+                    url: '#'
+                },
+                {
+                    text: 'Subscriptions',
+                    url: '#'
+                },
+                {
+                    text: 'Talent Workshops',
+                    url: '#'
+                },
+                {
+                    text: 'CPSC Certificates',
+                    url: '#'
+                },
+                {
+                    text: 'Ratings',
+                    url: '#'
+                },
+                {
+                    text: 'Shop help',
+                    url: '#'
+                },
+                {
+                    text: 'Contact Us',
+                    url: '#'
+                },
+            ],
+            LinksSites: [
+                {
+                    text: 'DC',
+                    url: '#'
+                },
+                {
+                    text: 'MAD magazine',
+                    url: '#'
+                }, 
+                {
+                    text: 'DC Kids',
+                    url: '#'
+                }, 
+                {
+                    text: 'DC Universe',
+                    url: '#'
+                },
+                {
+                    text: 'DC Power Visa',
+                    url: '#'
+                },
+            ],
+        }
+    }
 }
 </script>
 
@@ -276,8 +302,9 @@ footer {
         position: relative;
         overflow: hidden;
 
-        .list {
-            padding: 0 20px;
+        h3 {
+            color: white;
+            padding-block: 20px;
         }
 
         li {
@@ -289,13 +316,10 @@ footer {
             }
         }
 
-        .title-list {
-            font-size: 18px;
-            font-weight: bold;
-            color: white;
-            padding: 20px 0;
+        .nav-center {
+            padding-inline: 30px;
         }
-
+        
         .img-container {
             position: absolute;
             top:-100px;
