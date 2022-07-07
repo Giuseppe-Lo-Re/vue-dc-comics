@@ -91,6 +91,7 @@ header {
 
         .logo {
            width: 80px;
+           cursor: pointer;
         }
     
         ul {

@@ -28,11 +28,11 @@ export default {
 @import '../style/common';
 
 .product-card-container {
-    
     width: calc((100% / 6));
     padding-top: 50px;
     
     .product-card {
+        cursor: pointer;
 
         .img-wrapper {
             width: 200px;

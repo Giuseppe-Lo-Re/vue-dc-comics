@@ -23,7 +23,7 @@
 
             <!-- Load More -->
             <div class="wrapper">
-                <div class="title padding">
+                <div class="title padding-cursor">
                     LOAD MORE
                 </div>
             </div>
@@ -78,8 +78,9 @@ section {
             left: 60px;
         }
 
-        &.padding {
+        &.padding-cursor {
             padding: 10px 80px;
+            cursor: pointer;
         }
     }
     
