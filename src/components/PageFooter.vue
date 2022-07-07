@@ -319,8 +319,8 @@ footer {
         .btn {
             border: 2px solid $brand_secondary_color;
             text-decoration: none;
-                color: white;
-                padding: 10px 20px;
+            color: white;
+            padding: 10px 20px;
         }
 
         .social {
