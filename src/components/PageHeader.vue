@@ -32,43 +32,43 @@ export default {
         return {
             menuLinks: [
                {
-                    text: 'CHARACTERS',
+                    text: 'characters',
                     current: false
                 },
                 {
-                    text: 'COMICS',
+                    text: 'comics',
                     current: true
                 },  
                 {
-                    text: 'MOVIES',
+                    text: 'movies',
                     current: false
                 },
                 {
-                    text: 'TV',
+                    text: 'tv',
                     current: false
                 },
                 {
-                    text: 'GAMES',
+                    text: 'games',
                     current: false
                 },
                 {
-                    text: 'COLLECTIBLES',
+                    text: 'collectibles',
                     current: false
                 },
                 {
-                    text: 'VIDEOS',
+                    text: 'videos',
                     current: false
                 },
                 {
-                    text: 'FANS',
+                    text: 'fans',
                     current: false
                 },
                 {
-                    text: 'NEWS',
+                    text: 'news',
                     current: false
                 },
                 {
-                    text: 'SHOP',
+                    text: 'shop',
                     current: false
                 },
             ]
@@ -98,6 +98,7 @@ header {
             padding-right: 50px;
 
             li {
+                text-transform: uppercase;
                 margin: 0 15px;
                 line-height: 94px;
                 text-decoration: none;
